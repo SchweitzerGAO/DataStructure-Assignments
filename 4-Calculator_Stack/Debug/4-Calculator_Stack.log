@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\4-Calculator_Stack\calcStack.h(110,21): warning C4018: “>=”: 有符号/无符号不匹配
+C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\4-Calculator_Stack\main.cpp(20,21): warning C4018: “<”: 有符号/无符号不匹配
+  4-Calculator_Stack.vcxproj -> C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\4-Calculator_Stack\Debug\4-Calculator_Stack.exe

@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\4-Calculator_Stack\calcStack.h(110,21): warning C4018: “>=”: 有符号/无符号不匹配
+C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\4-Calculator_Stack\main.cpp(28,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\4-Calculator_Stack\main.cpp(88,20): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码
+  0 of 130 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  4-Calculator_Stack.vcxproj -> C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\4-Calculator_Stack\Release\4-Calculator_Stack.exe

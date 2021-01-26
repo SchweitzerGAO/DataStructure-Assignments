@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\9_Schedule\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>325</LINE>
+      <COLUMN>71</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>从“item.days”中读取的数据无效: 可读大小为“16”个字节，但可能读取了“20”个字节。</DESCRIPTION>
+    <FUNCTION>Schedule::Arrange_one</FUNCTION>
+    <DECORATED>?Arrange_one@Schedule@@QAEXAAUCourse@@QAY09_N@Z</DECORATED>
+    <FUNCLINE>305</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\9_Schedule\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>307</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“item.credit==6”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\9_Schedule\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>309</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\9_Schedule\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>310</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“&lt;分支条件&gt;”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\9_Schedule\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>312</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\9_Schedule\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>313</LINE>
+        <COLUMN>53</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“days”是“Schedule::arrangeByDuration”的输入/输出参数(在 c:\users\gaoyangfan\desktop\course_work\数据结构与算法 2020秋\课程设计\9_schedule\schedule.h:59 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\9_Schedule\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>313</LINE>
+        <COLUMN>53</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\9_Schedule\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>320</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\9_Schedule\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“cnt”可能等于 4</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\9_Schedule\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>322</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“cnt”是“Schedule::arrangeByDuration”的输入/输出参数(在 c:\users\gaoyangfan\desktop\course_work\数据结构与算法 2020秋\课程设计\9_schedule\schedule.h:59 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\9_Schedule\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>322</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“&lt;分支条件&gt;”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\9_Schedule\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>324</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>别名</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>(别名)“temp3”收到“cnt”的值(可能为 4)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\9_Schedule\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>325</LINE>
+        <COLUMN>71</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“days”是“Schedule::arrangeByDuration”的输入/输出参数(在 c:\users\gaoyangfan\desktop\course_work\数据结构与算法 2020秋\课程设计\9_schedule\schedule.h:59 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\9_Schedule\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>325</LINE>
+        <COLUMN>71</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\gaoyangfan\Desktop\COURSE_WORK\数据结构与算法 2020秋\课程设计\9_Schedule\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>325</LINE>
+        <COLUMN>71</COLUMN>
+        <KEYEVENT>
+          <ID>11</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>从“item.days[4]”中读取无效(可读范围是 0 到 3)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>
